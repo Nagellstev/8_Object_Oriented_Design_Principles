@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarDealer
+namespace CarDealer.Entities
 {
-    interface ICarReader
+    interface ICarSaver
     {
-        string?[] GetInputData();
+        void Save(Car car, string fileName);
     }
 }

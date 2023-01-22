@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarDealer
+namespace CarDealer.Commands
 {
-    interface ICarBinder
+    internal interface ICommand
     {
-        Car CreateCar(string?[] data);
+        void Execute();
     }
 }

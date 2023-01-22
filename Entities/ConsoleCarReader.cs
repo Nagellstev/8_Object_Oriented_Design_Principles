@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarDealer
+namespace CarDealer.Entities
 {
     internal class ConsoleCarReader : ICarReader
     {

@@ -5,10 +5,10 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarDealer
+namespace CarDealer.Entities
 {
-    interface ICarValidator
+    interface ICarBinder
     {
-        bool IsValid(Car car);
+        Car CreateCar(string?[] data);
     }
 }

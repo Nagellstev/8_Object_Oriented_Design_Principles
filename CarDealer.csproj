@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <Compile Remove="CarStore - backup.cs" />
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Commands\Exit.cs" />
   </ItemGroup>
 
 </Project>
