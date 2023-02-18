@@ -9,10 +9,12 @@ namespace CarDealer.Commands
     internal class AveragePriceType : ICommand
     {
         CarStore carStore;
+
         public AveragePriceType(CarStore _carStore)
         {
             carStore = _carStore;
         }
+
         public void Execute()
         {
             carStore.AveragePriceType();

@@ -10,10 +10,12 @@ namespace CarDealer
     internal class Invoker
     {
         ICommand command;
+
         public void SetCommand(ICommand c)
         {
                 command = c;
         }
+
         public void Run()
         {
             command.Execute();

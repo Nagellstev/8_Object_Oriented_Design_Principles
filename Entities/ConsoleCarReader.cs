@@ -15,10 +15,10 @@ namespace CarDealer.Entities
             Console.WriteLine("Input model:");
             string? model = Console.ReadLine();
             Console.WriteLine("Input quantity:");
-            string? qtty = Console.ReadLine();
+            string? quantity = Console.ReadLine();
             Console.WriteLine("Input price:");
             string? price = Console.ReadLine();
-            return new string?[] { brand, model, qtty, price };
+            return new string?[] { brand, model, quantity, price };
         }
     }
 }

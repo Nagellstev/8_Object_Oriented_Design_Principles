@@ -16,11 +16,12 @@ namespace CarDealer.Entities
                 data[1] is string model &&
                 brand.Length > 0 &&
                 model.Length > 0 &&
-                int.TryParse(data[2], out var qtty) &&
+                int.TryParse(data[2], out var quantity) &&
                 int.TryParse(data[3], out var price))
             {
-                return new Car(brand, model, qtty, price);
+                return new Car(brand, model, quantity, price);
             }
+
             throw new Exception("Error Car Binder. Incorrect Data");
         }
     }

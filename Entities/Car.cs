@@ -12,11 +12,11 @@ namespace CarDealer.Entities
         public string Model { get; }
         public int Quantity { get; }
         public int Price { get; }
-        public Car(string brand, string model, int qtty, int price)
+        public Car(string brand, string model, int quantity, int price)
         {
             Brand = brand;
             Model = model;
-            Quantity = qtty;
+            Quantity = quantity;
             Price = price;
         }
     }
